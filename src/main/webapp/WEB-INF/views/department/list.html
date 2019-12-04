@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
+<head th:replace="department/index :: head">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Department</title>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            let deleteLink = $("a:contains('Delete')");
+            $(deleteLink).click(function (event) {
+                $.ajax({
+                    url: $(event.target).attributes("href"),
+                    type: "POST",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+                    },
+                    success: function (department) {
+                        let resContent = "";
+                        let rowToDelete = $(event.target).closest("tr");
+                        rowToDelete.remove();
+                        resContent += "<span class='success'>Department was deleted: [";
+                        resContent += department.id + " : ";
+                        resContent += department.name + "]";
+                        $("#message").html(resContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
 </head>
 <body>
-<h1>Department</h1>
-<a href="/create-department">Create a new department</a>
-<table border="1">
-    <tr>
-        <td>Name</td>
-        <td>Edit</td>
-        <td>Delete</td>
-    </tr>
-    <th:block th:each="department:${departments}">
-        <tr>
-            <td><a th:href="@{/view-department/__${department.getId()}__}" th:text="*{department.getName()}"></a></td>
-            <td><a th:href="@{/edit-department/__${department.getId()}__}">Edit</a></td>
-            <td><a th:href="@{/delete-department/__${department.getId()}__}">Delete</a></td>
-        </tr>
-    </th:block>
-</table>
+<div class="container" style="height: auto">
+    <div th:replace="department/index :: navbar-department"></div>
+
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <a href="/department/create-department">Create a new department</a>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div>
+                <p>Here you can see a list of Department:</p>
+                <p id="message"></p>
+            </div>
+            <table border="1" class="table">
+                <tr>
+                    <td>Name</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                <th:block th:each="department:${departments}">
+                    <tr>
+                        <td><a th:href="@{/department/view-department/__${department.getId()}__}"
+                               th:text="*{department.getName()}"></a>
+                        </td>
+                        <td><a th:href="@{/department/edit-department/__${department.getId()}__}">Edit</a></td>
+                        <td><a th:href="@{/department/delete-department/__${department.getId()}__}">Delete</a></td>
+                    </tr>
+                </th:block>
+            </table>
+        </div>
+    </div>
+</div>
 </body>
 </html>

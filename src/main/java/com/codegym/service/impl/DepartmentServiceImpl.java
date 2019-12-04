@@ -20,12 +20,14 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public void save(Department department) {
-        departmentRepository.save(department);
+    public Department save(Department department) {
+        return departmentRepository.save(department);
     }
 
     @Override
-    public void delete(Long id) {
+    public Department delete(Long id) {
+        Department department = findById(id);
         departmentRepository.delete(id);
+        return department;
     }
 }

@@ -11,9 +11,6 @@ public class Department {
     private Long id;
     private String name;
 
-    @OneToMany(mappedBy = "department")
-    private Set<Employee> employees;
-
     public Department() {
     }
 
@@ -37,11 +34,4 @@ public class Department {
         this.name = name;
     }
 
-    public Set<Employee> getEmployees() {
-        return employees;
-    }
-
-    public void setEmployees(Set<Employee> employees) {
-        this.employees = employees;
-    }
 }

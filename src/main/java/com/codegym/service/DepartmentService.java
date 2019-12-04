@@ -8,7 +8,7 @@ public interface DepartmentService {
 
     Department findById(Long id);
 
-    void save(Department department);
+    Department save(Department department);
 
-    void delete(Long id);
+    Department delete(Long id);
 }

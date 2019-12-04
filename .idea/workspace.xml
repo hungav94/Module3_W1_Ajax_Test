@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c29e2a-b22e-4c5c-b57b-9617ef230381" name="Default Changelist" comment="" />
+    <list default="true" id="33c29e2a-b22e-4c5c-b57b-9617ef230381" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0df30a6a-8b7e-404c-af8c-1f53bcdd3a79.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0df30a6a-8b7e-404c-af8c-1f53bcdd3a79.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/impl/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Module2_W5_MidModule_1-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Module2_W5_MidModule_1-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +65,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="dbemployeemangement: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dbemployeemangement: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="department: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dbemployeemangement: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="employee: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -66,6 +82,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Module2_W5_MidModule_1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Module2_W5_MidModule_1" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
             </expand>
             <select />
@@ -86,6 +107,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -94,6 +118,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1TpE7slw0cN5KRc9m9lcnNaUjSs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -105,6 +130,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\An Viet Hung\IdeaProjects\Module2_W5_MidModule_1\src\main\webapp\WEB-INF\views\department" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,11 +232,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574148472216</updated>
-      <workItem from="1574148481551" duration="9484000" />
+      <workItem from="1574148481551" duration="10805000" />
+      <workItem from="1575446191923" duration="3889000" />
+      <workItem from="1575452295673" duration="6540000" />
+      <workItem from="1575453088973" duration="3614000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
